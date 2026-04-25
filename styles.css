@@ -185,6 +185,27 @@ article h3,
 article p {
     color: var(--color-light);
 }
+.hero-icon {
+    width: 84px;
+    height: 84px;
+    margin-bottom: 1rem;
+}
+
+.hero-icon circle {
+    fill: rgba(255, 255, 255, 0.18);
+    stroke: var(--color-light);
+    stroke-width: 6;
+}
+
+.hero-icon polyline,
+.hero-icon path {
+    fill: none;
+    stroke: var(--color-light);
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 8;
+}
+
 table {
     width: 100%;
     border-collapse: collapse;
