@@ -308,6 +308,7 @@ footer {
 
 /* MEDIA QUERIES (MEDIUM) */ 
 
+@media (min-width: 800px) {
     #results {
         grid-template-columns: 1fr 1fr;
     }
@@ -321,6 +322,17 @@ footer {
     .bar-chart {
         width: 50%;
     }
-
+    #services .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+    #services h2 {
+        grid-column: 1 / -1;
+    }
+    nav ul {
+        display: flex;
+    }
+}
 
 /* MEDIA QUERIES (LARGE) */
