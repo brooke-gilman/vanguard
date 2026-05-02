@@ -444,3 +444,16 @@ address {
         grid-column: 1 / -1;
     }
 }
+.cta-button {
+  display: inline-block;
+  background-color: #e6e6e6;
+  color: #1a73e8;
+  padding: 14px 24px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  width: auto;
+}
+.cta-button:hover {
+  background-color: #d9d9d9;
+}
