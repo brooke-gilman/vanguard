@@ -337,6 +337,42 @@ footer {
     padding: 2rem 0;
     color: var(--white);
 }
+#about h2 {
+    color: var(--white);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#about p {
+    color: var(--white);
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+}
+
+#about a {
+    background-color: var(--blue);
+    color: var(--white);
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+#about a:hover {
+    background-color: var(--red);
+}
+
+#chart {
+    background-color: var(--black);
+    padding: 2rem 0;
+    text-align: center;
+}
+
+#chart h2 {
+    color: var(--white);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
 
 /* MEDIA QUERIES (MEDIUM) */ 
 
